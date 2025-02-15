@@ -11,3 +11,4 @@ Firewall->>WebServer: Blocks incoming traffic through configured ACL's or rate l
 BotNet->>WebServer: May attempt to bypass security measures through changing the source traffic's IP.
 Firewall->>WebServer: Notices the new incoming traffic and will adapt it's security rules to block the new IP source.
 ```
+
